@@ -4,3 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "CookBook"
+
+[output.html]
+default-theme = "ayu"
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+git-repository-url = "https://github.com/gndpwnd/cookbook"
+git-repository-icon = "fa-github"
+site-url = "/cookbook/"
