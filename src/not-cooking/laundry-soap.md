@@ -2,19 +2,20 @@
 
 # Laundry Soap
 
-**Ingredients **_**(Makes 1 Batch, fills a 5 Gallon Bucket)**_
+**Ingredients** ***(Makes 1 Batch, fills a 5 Gallon Bucket)***
 
-* 1 bar of your normal soap
+* 1 bar Fels Napta
 * 1C of Arm & Hammer super washing soda
 * 1/2C Borax
 
 **Directions for Creating a Storage Mix**
 
 * Heat 4C of water in a pot
-* Add ingredients into the pot, stirring constantly so it does not boil over
+* Using a cheese grader, shred the Fels Napta bar completely 
+* Stir ingredients into the pot, mixing constantly so it does not boil over
 * Once everything is dissolved, mix for thoroughness and remove from the heat
-* Fill a 5-gallon bucket with water
-* Stir in soap compound
+* Fill a 5-gallon bucket half way with water
+* Stir in the soap compound
 * Mix thoroughly (suggest using a drill with a mixing attachment)
 * Fill a 5-gallon bucket the rest of the way with water
 * Mix again and store

@@ -2,6 +2,8 @@
 
 # Protein Mug Cake
 
+**Ingredients**
+
 * 2 scoops chocolate protein powder
 * 1/2 Tb baking powder
 * 1 Tb flour
@@ -9,6 +11,8 @@
 * 1 egg
 * 1 Tb milk
 * 1 Tb maple syrup
+
+**Directions**
 
 1. Mix dry ingredients in a mug.&#x20;
 2. Mix wet ingredients in a Tupperware container.&#x20;

@@ -1,4 +1,4 @@
-> Should fill a 9x9in pan - I usually make 4-5 batches  at once per month
+> Should fill a 9x9in pan - I usually make 4-5 batches once per month
 
 # Protein Bars
 
