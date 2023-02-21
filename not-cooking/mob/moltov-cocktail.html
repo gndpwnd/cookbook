@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js ayu">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Moltov Cocktail - CookBook</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Overview</a></li><li class="chapter-item expanded "><a href="../../basic-foods/0.html"><strong aria-hidden="true">1.</strong> Basic Foods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../basic-foods/flavour.html"><strong aria-hidden="true">1.1.</strong> Flavour</a></li><li class="chapter-item expanded "><a href="../../basic-foods/burritos.html"><strong aria-hidden="true">1.2.</strong> Burritos</a></li><li class="chapter-item expanded "><a href="../../basic-foods/oatmeal-bowls.html"><strong aria-hidden="true">1.3.</strong> Oatmeal Bowls</a></li><li class="chapter-item expanded "><a href="../../basic-foods/protein-mug-cake.html"><strong aria-hidden="true">1.4.</strong> Protein Mug Cake</a></li><li class="chapter-item expanded "><a href="../../basic-foods/protein-shakes.html"><strong aria-hidden="true">1.5.</strong> Protein Shakes</a></li><li class="chapter-item expanded "><a href="../../basic-foods/protein-bars.html"><strong aria-hidden="true">1.6.</strong> Protein Bars</a></li><li class="chapter-item expanded "><a href="../../basic-foods/cranberry-granola.html"><strong aria-hidden="true">1.7.</strong> Cranberry Granola</a></li><li class="chapter-item expanded "><a href="../../basic-foods/grilled-burgers.html"><strong aria-hidden="true">1.8.</strong> Grilled Burgers</a></li><li class="chapter-item expanded "><a href="../../basic-foods/orecchiette-pasta-mix.html"><strong aria-hidden="true">1.9.</strong> Orecchiette Pasta Mix</a></li><li class="chapter-item expanded "><a href="../../basic-foods/nacho-meat.html"><strong aria-hidden="true">1.10.</strong> Nacho Meat</a></li><li class="chapter-item expanded "><a href="../../basic-foods/easy-baked-potatoes.html"><strong aria-hidden="true">1.11.</strong> Easy Baked Potatoes</a></li><li class="chapter-item expanded "><a href="../../basic-foods/garlic-roasted-potatoes.html"><strong aria-hidden="true">1.12.</strong> Garlic Roasted Potatoes</a></li></ol></li><li class="chapter-item expanded "><a href="../../not-cooking/0.html"><strong aria-hidden="true">2.</strong> Not Cooking</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../not-cooking/cleaning/0.html"><strong aria-hidden="true">2.1.</strong> Cleaning</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../not-cooking/cleaning/laundry-soap.html"><strong aria-hidden="true">2.1.1.</strong> Laundry Soap</a></li></ol></li><li class="chapter-item expanded "><a href="../../not-cooking/splosions/0.html"><strong aria-hidden="true">2.2.</strong> Splosions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../not-cooking/splosions/ammonium_nitrate.html"><strong aria-hidden="true">2.2.1.</strong> Ammonium Nitrate</a></li></ol></li><li class="chapter-item expanded "><a href="../../not-cooking/pyro/0.html"><strong aria-hidden="true">2.3.</strong> Pyro</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../not-cooking/pyro/firework-stars.html"><strong aria-hidden="true">2.3.1.</strong> Firework Stars</a></li><li class="chapter-item expanded "><a href="../../not-cooking/pyro/simple-smoke-bombs.html"><strong aria-hidden="true">2.3.2.</strong> Simple Smoke Bombs</a></li><li class="chapter-item expanded "><a href="../../not-cooking/pyro/simple-rocket-fuel.html"><strong aria-hidden="true">2.3.3.</strong> Simple Rocket Fuel</a></li></ol></li><li class="chapter-item expanded "><a href="../../not-cooking/mob/0.html"><strong aria-hidden="true">2.4.</strong> Mob</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../not-cooking/mob/moltov-cocktail.html" class="active"><strong aria-hidden="true">2.4.1.</strong> Moltov Cocktail</a></li><li class="chapter-item expanded "><a href="../../not-cooking/mob/tear-gas.html"><strong aria-hidden="true">2.4.2.</strong> Tear Gas</a></li></ol></li><li class="chapter-item expanded "><a href="../../not-cooking/auxillary-books.html"><strong aria-hidden="true">2.5.</strong> Auxillary Books</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">CookBook</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/gndpwnd/cookbook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="moltov-cocktail"><a class="header" href="#moltov-cocktail">Moltov Cocktail</a></h1>
+<p><strong>Ingredients</strong></p>
+<ul>
+<li>1 glass bottle</li>
+<li>1 shop rag</li>
+<li>1 wick (strip of a shop rag)</li>
+<li>Duct Tape</li>
+<li>Fuel (gas &amp; diesel mixture preferrably)</li>
+</ul>
+<p><strong>Directions</strong></p>
+<ol start="2">
+<li>
+<p>Fill a glass bottle about 3/4 full of fuel (1/2 Gas &amp; 1/2 Diesel)</p>
+</li>
+<li>
+<p>Insert wick far enough to dip into the fuel solution</p>
+</li>
+<li>
+<p>Leave a finger-length of wick protruding from the bottle</p>
+</li>
+<li>
+<p>Stuff more material inside the mouth of the bottle</p>
+</li>
+<li>
+<p>Wrap bottle with a rag and tape</p>
+</li>
+</ol>
+<h3 id="throwing-a-molotov-cocktail"><a class="header" href="#throwing-a-molotov-cocktail">Throwing a Molotov Cocktail</a></h3>
+<ul>
+<li>To use the Molotov Cocktail, approach the target until you reach throwing distance. </li>
+<li>Quickly turn the bottle over so that fuel settles around the mouth of the bottle and slightly soaks the material. </li>
+<li>Turn the bottle back upright, light the wick, and throw.</li>
+<li>Of course, a Molotov Cocktail is not intended to be thrown at a person but rather, thrown at or onto a hard surface sufficient to break the glass bottle. </li>
+<li>This could be for instance, the hard metal surface of an armored vehicle or solid asphalt around the target.</li>
+</ul>
+<h3 id="breakdown-of-ingredients"><a class="header" href="#breakdown-of-ingredients">BreakDown of Ingredients</a></h3>
+<p><strong>The fuel</strong></p>
+<p>The best flammable fluids include alcohol, kerosene, and gasoline. If drinking alcohol is used, it must be a high-proof variety to ensure there is enough flammable alcohol present in the mixture.</p>
+<p><strong>Homemade Molotov Cocktails</strong></p>
+<p>Gasoline works well but burns quickly. Other flammable liquids such as diesel fuel, methanol, turpentine, alcohol-based hand sanitizer, and E85 can also be used. Still, gasoline is an easy fuel to find and the solution most commonly used in Molotov Cocktails. If gasoline is used, roofing tar or motor oil can be mixed with the gas to create a thicker solution that burns longer and adheres to the target. Other potential thickening agents include baking soda, tar, strips of tire tubing, blood, XPS foam, egg whites, rubber cement, and even dish soap. Some additives have the added advantage of creating thick, black smoke (e.g. motor oil).</p>
+<p>Another option is to create a solution similar to that used in napalm. To do this, melt Styrofoam in acetone to create a thick, pudding-like solution. Then mix this with equal parts of gasoline. The resulting mixture burns well and also adheres to the target.</p>
+<p>The ideal solution (perfected by the Finns) would consist of gasoline, kerosene, tar, and potassium chlorate. Of course, it’s likely difficult to find all these components in a war zone and gasoline works almost as well.</p>
+<p><strong>The Wick</strong></p>
+<p>The wick is used to light the fuel without harming the thrower. A rag or other natural fabric material (avoid synthetic materials if possible) can be cut into strips and attached to the bottle using tape.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../not-cooking/mob/0.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../not-cooking/mob/tear-gas.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../not-cooking/mob/0.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../not-cooking/mob/tear-gas.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
