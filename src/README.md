@@ -1,5 +1,12 @@
 # Overview
-> You can't swipe up on paper
+> 
+> *"The information presented here is for educational purposes only and should not be construed as legal, financial, or professional advice.*
+> *The content is provided "as is" and I make no representations or warranties of any kind, express or implied.* 
+> *Any action you take based on the information provided is at your own risk. I shall not be liable for any damages arising from your use of or reliance on the information presented.*
+> *Always seek the advice of a qualified professional before taking any action."*
+> Sincerely, The Creators of This Site & The Mobster Law Group
+
+![Cooking](assets/imgs/logo.png)
 
 ### Reasons for creation:
 

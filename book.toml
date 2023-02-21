@@ -13,3 +13,6 @@ no-section-label = false
 git-repository-url = "https://github.com/gndpwnd/cookbook"
 git-repository-icon = "fa-github"
 site-url = "/cookbook/"
+
+[output.html.print]
+enable = true
